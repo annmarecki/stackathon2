@@ -1,11 +1,11 @@
 
 import React, { useEffect, useRef, useState } from "react";
-// import * as ml5 from "ml5"
+import * as ml5 from "ml5"
 import { Rings } from 'react-loader-spinner';
 import useInterval from '@use-it/interval';
 import Chart from './Chart'
 import Pose from './Pose';
-const ml5 = require("ml5")
+// const ml5 = require("ml5")
 
   let classifier;
   const URL = "https://teachablemachine.withgoogle.com/models/-KXwaT7Hb/";
